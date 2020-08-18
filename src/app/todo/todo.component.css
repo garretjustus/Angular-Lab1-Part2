@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.todo-container {
+  background-color: white;
+  width: 75%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-item {
+  display: flex;
+}
+
+.task {
+  flex: 1;
+}
+
+.complete {
+  border: 1px solid #ff69b4;
+  color: #ff69b4;
+  background-color: white;
+}
+
+.add {
+  background-color: #ff1493;
+  color: white;
+  padding: 5px;
+}
+
+.todo-container * {
+  margin: 10px 0;
+}
+
+.ordered-list {
+  margin-left: 20px;
+}
+
+.strike {
+  text-decoration: line-through;
+}
